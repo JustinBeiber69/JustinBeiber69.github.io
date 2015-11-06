@@ -33,4 +33,60 @@ body{
 	top:1px;
 }
 
+#enemy1 {
+  position: absolute;
+  opacity: 1;
+  width: 1px;
+  height: 1px;
+  top: 225px;
+  left: 185px;
+  
+}
+
+@-webkit-keyframes enemymove {
+    from {height: 1px;
+    	  width: 1px;
+    	  top: 225px;
+    	  left: 185px;}
+    to {height: 380px;
+    	width: 380px;
+    	top: 425px;
+    	left: 385px;}
+}
+
+/* Standard syntax */
+@keyframes enemymove {
+    from {height: 1px;
+    	  width: 1px;
+    	  top: 225px;
+    	  left: 185px;}
+    to {height: 380px;
+    	width: 380px;
+        top: 425px;
+    	left: 385px;}
+}
+
+#enemy2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 750px;
+  left: 550px;
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 4s;
+  transition-timing-function: linear;
+}
+
+#enemy3 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 507px;
+  left: 504px;
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 4s;
+  transition-timing-function: linear;
+}
         
